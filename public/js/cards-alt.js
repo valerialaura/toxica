@@ -33,11 +33,6 @@
         e.preventDefault();
     });
 
-    $('#fuentes-btn').bind("click", function(e) {
-        $('#fuentes').css({"visibility": "visible", "display": "block"});
-        e.preventDefault();
-    });
-
     $('#creditos-btn').bind("click", function(e) {
         $('#creditos').css({"visibility": "visible", "display": "block"});
         e.preventDefault();

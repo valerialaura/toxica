@@ -1,48 +1,19 @@
-@charset "UTF-8";
 @font-face {
-  font-family: "Datoscopio";
+  font-family: "Bebas Bold";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/datoscopio.eot?#iefix") format("embedded-opentype"), url("../fonts/datoscopio.woff") format("woff"), url("../fonts/datoscopio.ttf") format("truetype"), url("../fonts/datoscopio.svg#Datoscopio") format("svg"); }
-
-/*
-
-pfdindisplaypro-black
-pfdindisplaypro-bold
-pfdindisplaypro-light
-pfdindisplaypro-med
-pfdindisplaypro-reg
-pfdindisplaypro-thin
-pfdindisplaypro-xthin
-
-*/
-@font-face {
-  font-family: "DIN Display Pro Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/pfdindisplaypro-med.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-med.woff") format("woff"), url("../fonts/pfdindisplaypro-med.ttf") format("truetype"), url("../fonts/pfdindisplaypro-med.svg#DIN Display Pro Bold") format("svg"); }
-
-@font-face {
-  font-family: "DIN Display Pro Medium";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/pfdindisplaypro-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-bold.woff") format("woff"), url("../fonts/pfdindisplaypro-bold.ttf") format("truetype"), url("../fonts/pfdindisplaypro-bold.svg#DIN Display Pro Medium") format("svg"); }
-
-@font-face {
-  font-family: "DIN Display Pro Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/pfdindisplaypro-reg.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-reg.woff") format("woff"), url("../fonts/pfdindisplaypro-reg.ttf") format("truetype"), url("../fonts/pfdindisplaypro-reg.svg#DIN Display Pro Regular") format("svg"); }
-
-@font-face {
-  font-family: "DIN Display Pro Thin";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/pfdindisplaypro-thin.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-thin.woff") format("woff"), url("../fonts/pfdindisplaypro-thin.ttf") format("truetype"), url("../fonts/pfdindisplaypro-thin.svg#DIN Display Pro Thin") format("svg"); }
+  src: url("../fonts/BebasNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue-Bold.woff") format("woff"), url("../fonts/BebasNeue-Bold.ttf") format("truetype"), url("../fonts/BebasNeue-Bold.svg#Bebas Bold") format("svg"); }
 
 /* ########
    Fuentes
    ######## */
+/*
+
+$fontset-bold: "Robot Mono", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$fontset-bold: "Robot Mono", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$fontset-bold: "Robot Mono", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+*/
 /* #######
    Colores
    ####### */
@@ -62,9 +33,9 @@ html, body {
 
 body {
   line-height: 1.42857;
-  background-color: #333333 !important;
-  color: #fff;
-  font-family: "DIN Display Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fff !important;
+  color: #000;
+  font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -86,164 +57,6 @@ body {
   display: table;
   content: '';
   clear: both; }
-
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "datoscopio";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
-
-/*
-
-.icon-salud-mortalidad-infantil {}
-.icon-salud-establecimientos {}
-.icon-salud-camas {}
-.icon-infraestructura-red-de-gas {}
-.icon-infraestructura-red-de-cloacas {}
-.icon-infraestructura-red-de-agua {}
-.icon-indicador-superficie {}
-.icon-indicador-presupuesto-per-capita {}
-.icon-indicador-poblacion {}
-.icon-educacion-uso-de-pc {}
-.icon-educacion-unidades-educativas {}
-.icon-educacion-analfabetismo {}
-.icon-educacion-alumnos {}
-
-salud-mortalidad-infantil
-salud-establecimientos
-salud-camas
-infraestructura-red-de-gas
-infraestructura-red-de-cloacas
-infraestructura-red-de-agua
-indicador-superficie
-indicador-presupuesto-per-capita
-indicador-poblacion
-educacion-uso-de-pc
-educacion-unidades-educativas
-educacion-analfabetismo
-educacion-alumnos
-
-*/
-.icon-logo:before {
-  content: '\e800'; }
-
-/* '' */
-.icon-salud-mortalidad-infantil:before, .icon-salud-tasa-mortalidad-infantil:before {
-  content: '\e801'; }
-
-/* '' */
-.icon-salud-establecimientos:before, .icon-salud-establecimientos-10000:before, .icon-salud-establecimientos-KM:before {
-  content: '\e802'; }
-
-/* '' */
-.icon-salud-camas:before, .icon-salud-camas-1000:before {
-  content: '\e803'; }
-
-/* '' */
-.icon-infraestructura-red-de-gas:before, .icon-infraestrtuctura-red-de-gas-porcentaje:before {
-  content: '\e804'; }
-
-/* '' */
-.icon-infraestructura-red-de-cloacas:before, .icon-infraestructura-red-de-cloacas-porcentaje:before {
-  content: '\e805'; }
-
-/* '' */
-.icon-infraestructura-red-de-agua:before, .icon-infraestructura-red-de-agua-porcentaje:before {
-  content: '\e806'; }
-
-/* '' */
-.icon-indicador-hogares:before {
-  content: '\e815'; }
-
-/* '' */
-.icon-indicador-superficie:before {
-  content: '\e807'; }
-
-/* '' */
-.icon-indicador-presupuesto-per-capita:before {
-  content: '\e808'; }
-
-/* '' */
-.icon-indicador-poblacion:before {
-  content: '\e809'; }
-
-/* '' */
-.icon-educacion-uso-de-pc:before {
-  content: '\e80a'; }
-
-/* '' */
-.icon-educacion-unidades-educativas:before,
-.icon-educacion-total-unidades-educativas:before,
-.icon-educacion-cantidad-unidades-educativas-cada-10000:before,
-.icon-educacion-porcentaje-asistencia-unidades-educativas-estatales:before,
-.icon-educacion-unidades-educativas-privadas:before,
-.icon-educacion-porcentaje-asistencia-unidades-educativas-privadas:before {
-  content: '\e80b'; }
-
-/* '' */
-.icon-educacion-analfabetismo:before {
-  content: '\e80c'; }
-
-/* '' */
-.icon-educacion-alumnos:before {
-  content: '\e80d'; }
-
-/* '' */
-.icon-arrow:before {
-  content: '\e80e'; }
-
-/* '' */
-.icon-cancel:before {
-  content: '\e80f'; }
-
-/* '' */
-.icon-instagram:before {
-  content: '\e810'; }
-
-/* '' */
-.icon-twitter:before {
-  content: '\e811'; }
-
-/* '' */
-.icon-github:before {
-  content: '\e812'; }
-
-/* '' */
-.icon-facebook:before {
-  content: '\e813'; }
-
-/* '' */
-.icon-mail:before {
-  content: '\e814'; }
-
-/* '' */
-[class*=" icon-salud"] {
-  color: #2bfda6; }
-
-[class*=" icon-infraestructura"] {
-  color: #cca2fc; }
-
-[class*=" icon-educacion"] {
-  color: #88ffff; }
 
 /* helper class when showing content */
 .noscroll {
@@ -341,15 +154,21 @@ button:focus {
     font-size: 4em;
     padding-right: 15px; }
   .introduccion h1 {
-    font-family: "DIN Display Pro Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 2.5em;
     line-height: 3em;
     text-transform: uppercase;
     margin-bottom: 30px;
-    float: left; }
+    float: left;
+    text-align: justify;
+    text-align-last: justify; }
+  .introduccion h1:after {
+    content: "";
+    display: inline-block;
+    width: 100%; }
   .introduccion h2 {
-    font-family: "DIN Display Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
     font-size: 1.5em;
     line-height: 3;
@@ -359,7 +178,7 @@ button:focus {
     font-weight: normal;
     text-align: center;
     margin: 0 auto;
-    font-family: "DIN Display Pro Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.1em;
     letter-spacing: .1em;
     width: 65%; }
@@ -368,7 +187,7 @@ button:focus {
     padding: 30px 0;
     font-size: 1.2em;
     color: white;
-    font-family: "DIN Display Pro Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .introduccion .ingresar:hover {
       color: rgba(255, 255, 255, 0.5); }
     .introduccion .ingresar .icon-arrow {
@@ -383,46 +202,6 @@ button:focus {
       text-align: center;
       display: inline-block;
       margin: 0 auto; }
-
-/* Sidebar */
-.sidebar {
-  text-align: left;
-  background: #333333;
-  z-index: 1000;
-  position: fixed;
-  width: 300px;
-  max-width: 100%;
-  height: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  padding: 2em 1em;
-  z-index: 100; }
-  .sidebar .logo {
-    display: block;
-    padding-bottom: 100px; }
-  .sidebar .icon-logo {
-    float: left;
-    font-size: 3em;
-    padding-right: 15px; }
-  .sidebar h1 {
-    font-family: "DIN Display Pro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    float: left;
-    font-size: 1.2em;
-    line-height: 2.1em;
-    font-weight: 500;
-    text-transform: uppercase; }
-  .sidebar h2 {
-    width: 70%;
-    font-family: "DIN Display Pro Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0.75em 0 0;
-    font-size: 1.3em;
-    line-height: 1;
-    font-weight: 300;
-    text-align: left;
-    text-transform: uppercase; }
-    .sidebar h2 span {
-      display: block; }
 
 .social {
   position: absolute;
@@ -510,89 +289,6 @@ button:focus {
       transform: translateY(7px); }
 
 /* Filter/dropdown dummy on the right */
-.filter span {
-  display: block;
-  font-size: .75em;
-  text-transform: uppercase;
-  padding-bottom: 15px; }
-
-.filter__item {
-  display: block;
-  cursor: pointer;
-  text-align: left;
-  color: #333333;
-  background-color: transparent;
-  border: none;
-  text-transform: uppercase;
-  font-family: "DIN Display Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  padding: 10px 0px 10px 0px;
-  text-decoration: none;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
-  .filter__item:active {
-    position: relative;
-    top: 1px; }
-  .filter__item.salud {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border: none;
-    color: #2bfda6; }
-    .filter__item.salud:hover, .filter__item.salud:focus {
-      color: rgba(43, 253, 166, 0.5); }
-  .filter__item.educacion {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border: none;
-    color: #88ffff; }
-    .filter__item.educacion:hover, .filter__item.educacion:focus {
-      color: rgba(136, 255, 255, 0.5); }
-  .filter__item.infraestructura {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border: none;
-    color: #cca2fc; }
-    .filter__item.infraestructura:hover, .filter__item.infraestructura:focus {
-      color: rgba(204, 162, 252, 0.5); }
-
-.filter__reset {
-  color: white; }
-  .filter__reset.filter__item--selected {
-    color: rgba(255, 255, 255, 0); }
-
-.filter__item--selected.salud {
-  border: none;
-  color: #77fec6; }
-  .filter__item--selected.salud:hover, .filter__item--selected.salud:focus {
-    color: rgba(119, 254, 198, 0.5); }
-
-.filter__item--selected.educacion {
-  border: none;
-  color: #d5ffff; }
-  .filter__item--selected.educacion:hover, .filter__item--selected.educacion:focus {
-    color: rgba(213, 255, 255, 0.5); }
-
-.filter__item--selected.infraestructura {
-  border: none;
-  color: #f5ecfe; }
-  .filter__item--selected.infraestructura:hover, .filter__item--selected.infraestructura:focus {
-    color: rgba(245, 236, 254, 0.5); }
-
-.filter__hide {
-  display: none; }
-
 .menu {
   font-size: .8em; }
   .menu span {
@@ -676,15 +372,16 @@ button:focus {
 /* grid item element and full content element styles */
 .title, .content__item .title {
   margin: 30px 0 0 0;
-  font-family: "DIN Display Pro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.95em;
+  font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
   text-align: left;
   width: 100%;
   line-height: 1.1em;
   padding: 0px; }
 
 .card--text {
-  font-family: "DIN Display Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 1.35em;
   line-height: 1.4em;
@@ -727,7 +424,7 @@ button:focus {
   margin: 5px 0px;
   padding: 5px;
   position: absolute;
-  font-family: "DIN Display Pro Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.7em;
   font-weight: 700;
   text-transform: uppercase;
@@ -805,99 +502,6 @@ button:focus {
 .grid__item:hover .meta--preview .meta__avatar, .grid__item:focus .meta--preview .meta__avatar {
   -webkit-filter: none;
   filter: none; }
-
-.meta__indicador_a {
-  font-size: 2.5em;
-  float: left;
-  display: block; }
-
-.meta__indicador_b {
-  font-size: 2.5em;
-  float: left;
-  display: block; }
-
-.meta__indicador_c {
-  font-size: 2.5em;
-  float: left;
-  display: block; }
-
-.meta__misc {
-  display: block;
-  clear: both;
-  text-align: left;
-  padding: 5px 0; }
-
-.meta__misc--seperator {
-  padding: 20px 0 0;
-  margin: 65px 0 0;
-  border-top: 1px solid #f5f5f5; }
-
-.article-nav {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between; }
-  .article-nav button {
-    border: none;
-    color: #81c483;
-    background: none; }
-    .article-nav button:hover {
-      color: #333; }
-
-.meta--preview .meta__avatar, .meta--preview .meta__date, .meta--preview .meta__reading-time {
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
-
-.grid__item--loading .meta__avatar {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s; }
-
-.grid__item--loading .meta__date {
-  -webkit-transition-delay: 0.17s;
-  transition-delay: 0.17s; }
-
-.grid__item--loading .meta__reading-time {
-  -webkit-transition-delay: 0.24s;
-  transition-delay: 0.24s; }
-
-.grid__item--loading .meta__avatar, .grid__item--loading .meta__date, .grid__item--loading .meta__reading-time {
-  -webkit-transform: scale3d(0.5, 0.5, 1);
-  transform: scale3d(0.5, 0.5, 1);
-  opacity: 0; }
-
-/* Grid footer */
-.page-meta {
-  width: 100%;
-  background: #fff;
-  width: 100%;
-  padding: 15px 15px 10px;
-  text-align: center;
-  font-size: 0.75em;
-  font-weight: bold;
-  cursor: default; }
-
-/* Placeholder element (dummy that gets animated when we click on an item) */
-.placeholder {
-  pointer-events: none;
-  position: absolute;
-  width: calc(100% + 5px);
-  height: calc(100vh + 5px);
-  z-index: 100;
-  top: 0;
-  left: 0;
-  background: #333333;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0; }
-  .placeholder.placeholder--trans-in {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
-  .placeholder.placeholder--trans-out {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s; }
 
 /* main content */
 .content {
@@ -984,157 +588,6 @@ button:focus {
   padding: 20px 150px 0 0;
   display: none;
   visibility: hidden; }
-
-.meta--full {
-  font-size: 1em;
-  margin: 0 auto 2em;
-  max-width: 1200px; }
-  .meta--full .meta__author {
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 20px; }
-    .meta--full .meta__author::before {
-      content: 'by ';
-      font-weight: normal; }
-  .meta--full .meta__category {
-    font-style: italic;
-    float: left;
-    margin: 0 5px; }
-    .meta--full .meta__category::before {
-      content: "in "; }
-  .meta--full .meta__avatar {
-    margin: 1em auto; }
-
-.category--full, .title--full {
-  opacity: 0; }
-
-.meta--full .meta__avatar, .meta--full .meta__author, .meta--full .meta__date, .meta--full .meta__reading-time {
-  opacity: 0; }
-
-.content__item p {
-  opacity: 0; }
-
-.category--full, .title--full {
-  -webkit-transform: translate3d(0, 40px, 0);
-  transform: translate3d(0, 40px, 0); }
-
-.meta--full .meta__avatar, .meta--full .meta__author, .meta--full .meta__date, .meta--full .meta__reading-time {
-  -webkit-transform: scale3d(0.5, 0.5, 1);
-  transform: scale3d(0.5, 0.5, 1); }
-
-.content__item--show .category--full, .content__item--show .title--full {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
-
-.content__item--show .meta--full .meta__avatar, .content__item--show .meta--full .meta__author, .content__item--show .meta--full .meta__date, .content__item--show .meta--full .meta__reading-time {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
-
-.content__item--show .category--full {
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out; }
-
-.content__item--show .title--full {
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s; }
-
-.content__item--show .meta--full .meta__avatar {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s; }
-
-.content__item--show .meta--full .meta__date {
-  -webkit-transition-delay: 0.27s;
-  transition-delay: 0.27s; }
-
-.content__item--show .meta--full .meta__reading-time {
-  -webkit-transition-delay: 0.34s;
-  transition-delay: 0.34s; }
-
-.content__item--show.content__item p {
-  opacity: 1;
-  -webkit-transition: opacity 0.5s 0.25s;
-  transition: opacity 0.5s 0.25s; }
-
-.tabs {
-  position: absolute;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0;
-  bottom: 0;
-  left: 0; }
-  .tabs::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .tabs nav {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch; }
-
-.tabs-navigation {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-  .tabs-navigation::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .tabs-navigation.salud a {
-    background-color: rgba(43, 253, 166, 0.5); }
-    .tabs-navigation.salud a:hover, .tabs-navigation.salud a:focus, .tabs-navigation.salud a.activo {
-      background-color: #2bfda6; }
-  .tabs-navigation.educacion a {
-    background-color: rgba(136, 255, 255, 0.5); }
-    .tabs-navigation.educacion a:hover, .tabs-navigation.educacion a:focus, .tabs-navigation.educacion a.activo {
-      background-color: #88ffff; }
-  .tabs-navigation.infraestructura a {
-    background-color: rgba(204, 162, 252, 0.5); }
-    .tabs-navigation.infraestructura a:hover, .tabs-navigation.infraestructura a:focus, .tabs-navigation.infraestructura a.activo {
-      background-color: #cca2fc; }
-  .tabs-navigation li {
-    float: left; }
-  .tabs-navigation a {
-    font-family: "DIN Display Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.9em;
-    color: #333333;
-    position: relative;
-    display: block;
-    height: 100px;
-    width: 250px;
-    white-space: wrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: left;
-    padding: 10px 10px;
-    -webkit-transform-style: preserve-3d;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out; }
-    .tabs-navigation a:hover {
-      position: relative;
-      overflow: visible;
-      width: 300px; }
-    .tabs-navigation a.activo {
-      font-size: 1em;
-      position: relative;
-      overflow: visible;
-      width: 400px; }
-      .tabs-navigation a.activo:hover {
-        font-size: .9em;
-        width: 400px; }
 
 /* close button (for content and sidebar) */
 .close-button {
@@ -1290,8 +743,7 @@ Estilos d3
   html, body, .container, .main {
     height: 100vh; }
   .main {
-    height: 100%;
-    margin-left: 200px; }
+    height: 100%; }
   .sidebar {
     width: 200px; }
     .sidebar h1 {
@@ -1371,10 +823,6 @@ Estilos d3
       width: 200px; } }
 
 @media screen and (min-width: 900px) {
-  .sidebar {
-    width: 200px; }
-    .sidebar h1 {
-      display: block; }
   .grid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1424,8 +872,16 @@ Estilos d3
 
 @media screen and (min-width: 1200px) {
   .main {
-    height: 100%;
-    margin-left: 300px; }
+    height: 100%; }
+    .main h1 {
+      font-size: 3rem;
+      line-height: 3rem;
+      text-align: justify;
+      text-align-last: justify; }
+      .main h1:after {
+        content: "";
+        display: inline-block;
+        width: 100%; }
   .sidebar {
     width: 300px; }
     .sidebar h1 {
@@ -1511,7 +967,7 @@ Estilos d3
       margin: 10px 0px 10px 15px; }
     .content__item .title {
       width: 80%;
-      font-family: "DIN Display Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Bebas Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
       margin: 10px 0px 0 15px; }
   .sidebar {
     padding: 1em;

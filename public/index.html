@@ -17,10 +17,6 @@
     <script type="text/javascript" src="components/sheetrock/dist/sheetrock.min.js"></script>
     <script type="text/javascript" src="components/handlebars/handlebars.min.js"></script>
     <script type="text/javascript" src="components/isotope/dist/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="components/d3/d3.min.js"></script>
-    <script type="text/javascript" src="components/d3-tip/index.js"></script>
-    <script type="text/javascript" src="js/topojson.min.js"></script>    
-    <script type="text/javascript" src="js/data.js"></script>    
 
 </head>
 
@@ -28,133 +24,26 @@
 <div class="landing">
     <div class="introduccion">
         <div class="logo">
-            <span class="icon-logo"></span>
             <h1>Tóxica</h1>
         </div>
         <h2>Contenido</h2>
-        <h3>Contenido</h3>
         <a href="" class="ingresar">Ingresar <span class="icon-arrow"></span></a>
-        <ul class="iconos">
-            <li class="intro-infraestructura icon-infraestructura-red-de-gas"></li>
-            <li class="intro-infraestructura icon-infraestructura-red-de-cloacas"></li>
-            <li class="intro-infraestructura icon-infraestructura-red-de-agua"></li>
-            <li class="intro-salud icon-salud-mortalidad-infantil"></li>
-            <li class="intro-salud icon-salud-establecimientos"></li>
-            <li class="intro-salud icon-salud-camas"></li>
-            <li class="intro-educacion icon-educacion-uso-de-pc"></li>
-            <li class="intro-educacion icon-educacion-unidades-educativas"></li>
-            <li class="intro-educacion icon-educacion-analfabetismo"></li>
-            <li class="intro-educacion icon-educacion-alumnos"></li>
-        </ul>
     </div>
 </div>
-<div id="metodologia">
-    <div class="contenido">
-        <button class="close-button"><span class="icon-cancel"></span></button>
-        <h1>Metodología</h1>
-        <p>A través de Radiografía del Conurbano el objetivo de Datoscopio es reunir, interpretar y presentar de manera clara los datos relativos a una temática específica producidos por organismos oficiales, para ofrecer una lectura posible.</p>
-        <p>En Datoscopio hemos tomado la decisión de trabajar exclusivamente con datos oficiales publicados por organismos gubernamentales. Las razones son dos: por un lado, no recurrir a la información generada por entidades no oficiales para evitar lecturas parciales o tendenciosas, y por el otro, identificar la existencia y disponibilidad de canales para acceder a un tema vinculado a la cuestión pública a través de la información divulgada, exclusivamente, por los organismos competentes.</p>
-        <p>El objeto de análisis que hemos definido, por su relevancia y su peso en términos poblacionales y electorales, pero también por la abundante y no siempre precisa información que circula en los medios, corresponde a los 24 partidos que componen el conurbano bonaerense. Nos propusimos reunir datos que reflejaran ciertos aspectos de la calidad de vida de la población en este territorio y producir visualizaciones que nos permitieran comparar el desempeño de cada uno de los municipios. Decidimos, entonces, abordar este recorte de la provincia de Buenos Aires  desde tres dimensiones sustanciales: infraestructura de servicios básicos, salud pública y educación.</p>
-        <p>A lo largo de la investigación surgieron varias dificultades: la dispersión de los datos, su desactualización y quizás el mayor de los obstáculos, su ausencia. Ante ese escenario,  muchas de las preguntas formuladas para los indicadores elegidos no pudieron ser respondidas. Sin embargo, con los datos disponibles hemos podido  elaborar una serie de visualizaciones que consideramos útiles y pertinentes para conocer el estado general de situación del conurbano bonaerense respecto de las condiciones de vida de su población.</p>
-    </div>
-</div>
-<div id="fuentes">
-    <div class="contenido">
-        <button class="close-button"><span class="icon-cancel"></span></button>
-        <h1>Fuentes y Datos</h1>
 
-        <p>Para las visualizaciones de los datos de infraestructura de servicios básicos utilizamos el Censo de Población 2010 del INDEC. Dichos datos son los más actualizados y son, a su vez, los que publica en su sitio web el Ministerio de salud de la Provincia de Buenos Aires como “Determinantes de Salud”. Para el eje de salud, utilizamos los datos publicados por ese mismo ministerio y para las visualizaciones de educación utilizamos los datos de la Dirección General de Cultura y Educación de la Provincia de Buenos Aires. Las categorías conceptuales empleadas fueron definidas por los propios organismos y pueden ser consultadas en sus sitios web.  </p>
-
-        <p>Por la naturaleza dinámica del proyecto, lo visualizado hasta el momento puede variar de acuerdo al relevamiento de nuevos datos o bien nuevos cruces que pudieran proponerse. </p>
-
-        <p>Datoscopio pone a disposición los datasets de Radiografía del Conurbano para su consulta y/o reutilización.</p>
-
-        <a href="https://docs.google.com/spreadsheets/d/1Fij0859o4Ji3Fkk9UiNNOdA_k8qIsMoNnb725YcEQms/edit?usp=sharing" target="_blank">Descargá los datos de Radiografía del conurbano</a>
-
-        Accesos a las fuentes:
-        <a href="http://servicios2.abc.gov.ar/lainstitucion/organismos/informacionyestadistica/estadistica_educativa/" target="_blank">Estadistica educativa</a>
-
-        <a href="http://www.ms.gba.gov.ar/wp-content/uploads/2015/05/Guia_Establecimientos_2014.pdf" target="_blank">Guía de establecimientos 2014, Ministerio de Salud de la Pcia de Buenos Aires.</a>
-
-        <a href="http://www.ms.gba.gov.ar/estadisticas/" target="_blank">Apartado de estadísticas del Ministerio de Salud de la Pcia de Buenos Aires.</a>
-
-        <a href="http://www.sig.indec.gov.ar/censo2010/" target="_blank">Censo 2010, INDEC.</a>
-
-        <a href="http://www.ec.gba.gov.ar/areas/Sub_Politica_Coord_Eco/Libro_municipios_PB_2007-2013.pdf" target="_blank">Informe “Municipios de la Pcia. de Buenos Aires. Evolución de la situación económico financiera 2007-2013”, Ministerio de Economía de la Pcia de Buenos Aires.</a>
-    </div>
-</div>
 <div id="creditos">
     <div class="contenido">
         <button class="close-button"><span class="icon-cancel"></span></button>
         <h1>Créditos</h1>
-        <p>Programación: Davo Galavotti</p>
+        <p>Programación web: Davo Galavotti</p>
         </div>
 </div>
 <div class="container">
-    <button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
-    <div id="theSidebar" class="sidebar">
-        <button class="close-button"><span class="icon-cancel"></span></button>
-        <div class="logo">
-            <span class="icon-logo"></span>
-            <h1>Tóxica</h1>
-        </div>
-        <h2>Contenido</h2>
-        <header class="top-bar">
-            <div class="bar">
-                <div class="filter">
-                        <span>Filtrar historias por indicador:</span>
-                        <button class="action filter__item infraestructura" data-filter=".infraestructura">Infraestructura</button>
-                        <button class="action filter__item salud" data-filter=".salud">Salud</button>
-                        <button class="action filter__item educacion" data-filter=".educacion">Educacion</button>
-                        <button class="action filter__item filter__reset filter__item--selected" data-filter="*">Ver todos</button>
-                </div>
-                <div class="menu">
-                        <span>—</span>
-                        <a href="" id="metodologia-btn">Metodología</a>
-                        <a href="" id="fuentes-btn">Fuentes y Datos</a>
-                        <!-- <a href="" id="referencias-btn">Referencias</a> -->
-                        <a href="" id="creditos-btn">Créditos</a>
-                </div>
-            </div>
-        </header>
-        <div class="social">
-              <ul>
-                <li class="facebook">
-                  <a href="http://facebook.com/datoscopio/" target="_blank" class="icon-facebook"></a>
-                </li>
-                <li class="twitter">
-                  <a href="http://twitter.com/datoscopio/" target="_blank" class="icon-twitter"></a>
-                </li>
-                <li class="instagram">
-                  <a href="http://instagram.com/datoscopio/" target="_blank" class="icon-instagram"></a>
-                </li>
-              </ul>
-            </div>
-    </div>
     <div id="theGrid" class="main">
-
-
         <section class="grid">
-            <!-- <div class="grid__sizer"></div> -->
-
-            <div class="grid__sizer"></div>
             <script id="card-template" type="text/x-handlebars-template">
-                <a class="grid__item {{cells.eje_key}}" href="#" data-prioridad="{{cells.prioridad}}" data-orden="{{cells.orden}}" data-viz="{{cells.dataviz_key}}">
-                    <span class="category {{cells.eje_key}}">{{cells.eje}}</span>
-                    <h2 class="title title--preview {{cells.eje_key}}">{{cells.titulo}}</h2>
-                    <div class="card--text">
-                        <p>{{cells.texto}}</p>
-                    </div>
-
-                    <div class="loader {{cells.eje_key}}"></div>
-
-
-                    <div class="meta">
-                     
-                        <span class="meta__indicador_a icon-{{cells.indicador_a}}"></span>
-                        <span class="meta__indicador_b icon-{{cells.indicador_b}}"></span>
-                        <span class="meta__indicador_c icon-{{cells.indicador_c}}"></span>
-                    </div>
+                <a class="grid__item">
+                    <h1 class="title">{{cells.texto}}</h1>
                 </a>
             </script>
 
@@ -164,7 +53,6 @@
 <!-- /view -->
     <script src="components/classie/classie.js"></script>
     <script src="js/cards-alt.js"></script>
-    <script src="js/scatterplot.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
