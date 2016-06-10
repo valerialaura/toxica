@@ -1,0 +1,30 @@
+{
+  "name": "gba",
+  "version": "1.0.0",
+  "description": "dependencias de desarrollo",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "connect-livereload": "^0.5.3",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-webserver": "^0.9.1",
+    "opn": "^3.0.2",
+    "tiny-lr": "^0.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datoscopio/gba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datoscopio/gba/issues"
+  },
+  "homepage": "https://github.com/datoscopio/gba#readme"
+}
